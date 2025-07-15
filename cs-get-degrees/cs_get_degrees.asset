@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e15ce27a3b28b498c2dcfffd025305, type: 3}
+  m_Name: cs_get_degrees
+  m_EditorClassIdentifier: 
+  Name: C's Get Degrees
+  Description: Maneuver through gates to maximize GPA and minimize friends.
+  Year: 2024
+  Semester: 0
+  Thumbnail: {fileID: 21300000, guid: 05d2b34c5d3a365448761905bbad7958, type: 3}
+  CreatorNames: Jacob Nuttall and Luke Freimanis
+  P1_Objective: Get the highest GPA!
+  P2_Objective: Get the highest GPA!
+  P1_JoystickDescription: Use to move side to side
+  P1_Button1Description: Win
+  P1_Button2Description: None
+  P1_Button3Description: None
+  P1_Button4Description: None
+  P1_Button5Description: None
+  P1_Button6Description: None
+  P2_JoystickDescription: Use to move side to side
+  P2_Button1Description: Win
+  P2_Button2Description: None
+  P2_Button3Description: None
+  P2_Button4Description: None
+  P2_Button5Description: None
+  P2_Button6Description: None
+  GameScene:
+    sceneAsset: {fileID: 102900000, guid: 1e8359059ad86444ab0564ff62cee8a0, type: 3}
+    scenePath: Assets/Minigames/cs-get-degrees/Scene_Template.unity
+  SupportedGameModes: 6
+  ExcludeFromGameList: 1
